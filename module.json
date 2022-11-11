@@ -1,0 +1,56 @@
+{
+  "id": "frontiers-of-magic",
+  "title": "Frontiers of Magic",
+  "description": "Foundry support for Frontiers of Magic, by Lion's Brain Media.",
+  "version": "0.1",
+  "authors": [
+    {"name": "W. Brian Lane" 
+    }
+  ],
+  "compatibility": {
+    "minimum": "10.285",
+    "verified": "10.285"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.0.6"
+      }
+    }]
+  },
+  "packs": [
+    {
+      "label": "Frontiers of Magic Spells",
+      "type": "Item",
+      "name": "frontiers-of-magic-spells",
+      "path": "./packs/frontiers-of-magic-spells.db",
+      "system": "pf2e",
+      "package": "frontiers-of-magic",
+      "private": false
+    },
+      {
+      "label": "Frontiers of Magic Archetypes",
+      "type": "Item",
+      "name": "frontiers-of-magic-archetypes",
+      "path": "./packs/frontiers-of-magic-archetypes.db",
+      "system": "pf2e",
+      "package": "frontiers-of-magic",
+      "private": false
+    },
+      {
+      "label": "Frontiers of Magic Class Options",
+      "type": "Item",
+      "name": "frontiers-of-magic-class-options",
+      "path": "./packs/frontiers-of-magic-class-options.db",
+      "system": "pf2e",
+      "package": "frontiers-of-magic",
+      "private": false
+    } 
+  ],
+  "url": "https://github.com/LionsBrainMedia/frontiers-of-magic",
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/frontiers-of-magic/master/module.json",
+  "download": "https://github.com/LionsBrainMedia/frontiers-of-magic/archive/refs/heads/main.zip"
+}
