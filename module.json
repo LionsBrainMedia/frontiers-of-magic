@@ -48,8 +48,30 @@
       "system": "pf2e",
       "package": "frontiers-of-magic",
       "private": false
-    } 
+    },
+      {
+      "label": "Frontiers of Magic Familiar Ancestry",
+      "type": "Item",
+      "name": "frontiers-of-magic-familiar-ancestry",
+      "path": "./packs/frontiers-of-magic-familiar-ancestry.db",
+      "system": "pf2e",
+      "package": "frontiers-of-magic",
+      "private": false
+    }  
   ],
+    "flags": {
+    "frontiers-of-magic": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+          "familiar": "Familiar"
+        },
+        "featTraits": {
+          "familiar": "Familiar"
+        }
+        }
+      }
+    },
+
   "url": "https://github.com/LionsBrainMedia/frontiers-of-magic",
   "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/frontiers-of-magic/master/module.json",
   "download": "https://github.com/LionsBrainMedia/frontiers-of-magic/archive/refs/heads/main.zip"
